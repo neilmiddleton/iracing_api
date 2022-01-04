@@ -1,4 +1,4 @@
-# Iracing Api
+# IRacing API
 
 A Ruby client gem for the iRacing API as announced [here](https://forums.iracing.com/discussion/15068/general-availability-of-data-api#latest)
 

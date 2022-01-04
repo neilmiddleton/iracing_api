@@ -4,7 +4,7 @@ require_relative "lib/iracing_api/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "iracing_api"
-  spec.version       = IracingApi::VERSION
+  spec.version       = IRacingAPI::VERSION
   spec.authors       = ["Neil Middleton"]
   spec.email         = ["neil@neilmiddleton.com"]
 
@@ -28,7 +28,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "faraday", "~> 1.8"
+  spec.add_dependency "faraday-cookie_jar", "~> 0.0.7"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html

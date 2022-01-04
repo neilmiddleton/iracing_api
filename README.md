@@ -20,7 +20,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Before doing anything you always need to authenticate with iRacing:
+
+```
+ir = IRacingAPI::Client.new(username, password)
+```
+
+After this is done you can make requests as per the docs:
+
+```
+ir.car 
+ir.carclass
+ir.league(league_id: xxx)
+ir.member(cust_ids: xxx)
+ir.results(subsession_id: xxx)
+ir.track
+```
+
+Support for other remaining methods is coming #soon.
 
 ## Development
 
